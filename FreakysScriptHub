@@ -489,6 +489,36 @@ Tab:AddSlider({
 })
 
 local Tab = Window:MakeTab({
+	Name = "Executor Tests",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Executor Tests"
+})
+
+Tab:AddButton({
+	Name = "UNC Test",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet('https://pastebin.com/raw/k8bfeBH0'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level Test",
+	Callback = function()
+      		print("button pressed")
+            printidentity()
+  	end    
+})
+
+Tab:AddLabel("Press F9 To Check UNC and Level")
+
+Tab:AddLabel("Dont Spam UNC Test or Some UNC Will Get Removed")
+
+local Tab = Window:MakeTab({
 	Name = "Misc",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
@@ -517,6 +547,8 @@ local Tab = Window:MakeTab({
 local Section = Tab:AddSection({
 	Name = "Updates"
 })
+
+Tab:AddLabel("V1.4.1 Added UNC and Level tests")
 
 Tab:AddLabel("V1.4 Added Word Bomb Legit and Blatant")
 
