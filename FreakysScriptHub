@@ -518,6 +518,8 @@ local Section = Tab:AddSection({
 	Name = "Updates"
 })
 
+Tab:AddLabel("V1.4 Added Word Bomb Legit and Blatant")
+
 Tab:AddLabel("V1.3 Added Many Scripts")
 
 Tab:AddLabel("V1.2.2 Removed YBA and TPS since patched")
