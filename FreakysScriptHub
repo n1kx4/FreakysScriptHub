@@ -453,6 +453,8 @@ local Section = Tab:AddSection({
 	Name = "Updates"
 })
 
+Tab:AddLabel("V1.2 Added Touch Fling")
+
 Tab:AddLabel("V1.1.2 removed 3008 since patched")
 
 Tab:AddLabel("V1.1 Added Bypass 2.0")
