@@ -20,6 +20,14 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Dingus",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/Dingus.lua"))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Phantom Forces",
 	Callback = function()
       		print("button pressed")
@@ -148,6 +156,22 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Jailbreak",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/BlitzIsKing/UniversalFarm/main/Loader/Regular'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Lumber Tycoon 2",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/LT2.lua"))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Owl Hub",
 	Callback = function()
       		print("button pressed")
@@ -168,6 +192,14 @@ Tab:AddButton({
 	Callback = function()
       		print("button pressed")
             loadstring(game:HttpGet("https://raw.githubusercontent.com/DepHubHolder/DepHub1/main/Loader1"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Death Ball",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
   	end    
 })
 
@@ -204,6 +236,14 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Doors",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "SwagMode",
 	Callback = function()
       		print("button pressed")
@@ -218,6 +258,15 @@ Tab:AddButton({
             loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))();
   	end    
 })
+
+Tab:AddButton({
+	Name = "Anime Ball",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
+  	end    
+})
+
 
 Tab:AddButton({
 	Name = "Steal Time From Others",
@@ -288,6 +337,22 @@ Tab:AddButton({
 	Callback = function()
       		print("button pressed")
             loadstring(game:HttpGet("https://raw.githubusercontent.com/NBLMSCRIPTS/NBLMSCRIPTHUB/main/SKIBIDI"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Jailbreak 2.0",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/TempIsGay/Cashfarm/main/AutoCrateFree.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Stream Snipe",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Sniper.lua"))()
   	end    
 })
 
@@ -436,6 +501,8 @@ local Tab = Window:MakeTab({
 local Section = Tab:AddSection({
 	Name = "Updates"
 })
+
+Tab:AddLabel("V1.3 Added Jailbreak Sniper Doors Anime ball and Death ball")
 
 Tab:AddLabel("V1.2.2 Removed YBA and TPS since patched")
 
