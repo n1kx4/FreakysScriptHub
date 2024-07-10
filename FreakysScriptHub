@@ -1,0 +1,448 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Freakys Script Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Games",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Games"
+})
+
+Tab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Phantom Forces",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/dementiaenjoyer/homohack/main/homohack.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Arsenal",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Insertl/QuotasHub/main/BETAv1.3"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Operation Siege",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://pastebin.com/raw/fsJjsgyn"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "State Of Anarchy",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://pastebin.com/raw/eXVvJr6w"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Piggy",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://pastebin.com/raw/n4qZ1sJS"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blade Ball",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/BladeBallV3.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Murder Vs Sheriff",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubMurdervssheriff"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Phantom Ware",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Ayyyjaylan/PhantomWareScript/main/PhantomWare.lua",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Prison Life",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "VapeV4",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Azure Modded",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Universal Aimbot",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Aimbot_179"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Counter Blox",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Mick-gordon/Hyper-Escape/main/DeleteMobV2.lua", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "The Strongest BattleGrounds",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://scriptblox.com/raw/PSYCHIC-The-Strongest-Battlegrounds-SUPPORTED-SOLARA-BEST-14359"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "BrookHaven",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hide And Seek Extreme",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/n1kx4/hideandseekextreme/main/hideandseek"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Owl Hub",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Yarhm",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Dep Hub",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/DepHubHolder/DepHub1/main/Loader1"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "CocoKiwi",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/cocotv666/CocoKiwi/main/Cocokiwi"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Unamed Shooter",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/n1kx4/UnamedShooter/main/UnamedShooter"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Bypass Chat",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Clickgameplay/no-tag-script/main/.NoTagScript"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Murder Mystery 2",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/R3TH-PRIV/R3THPRIV/main/loader.lua'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "SwagMode",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/svan1lol/svanhub/main/svanhubdahood.lua", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Combat Warriors",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Steal Time From Others",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Kelvinouo/Hub/master/STFO%26BTB%20GUI", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Evade",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Tower Of Hell",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/sc0ttferren/robloxscripts/main/toh/sc0tt.lua'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "No Scope Sniping",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet('https://pastebin.com/raw/bVQeU5Mt'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "3008",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet('https://pastebin.com/raw/P7dXE6KM'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blox Fruits",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Breaking Point",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/1iseo/breaking-point-public/main/main.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "TPS Street Soccer",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/itsnoctural/DestinyHub/main/loader.lua',true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Faded",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hoopz",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet(('https://raw.githubusercontent.com/RTrade/Voidz/main/Games.lua'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Your Bizzare Adventure",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/ALLHACKLOADER/main/NukeHub"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fling",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NBLMSCRIPTS/NBLMSCRIPTHUB/main/SKIBIDI"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Lucky Blocks Battlegrounds",
+	Callback = function()
+      		print("button pressed")
+            while wait() do
+game:GetService("ReplicatedStorage").SpawnLuckyBlock:FireServer()
+end
+
+getgenv().spawnblock = true; -- turn this to false so that the script wont execute when you spawn
+while true do
+wait();
+if getgenv().spawnblock == true then
+game:GetService("ReplicatedStorage").SpawnGalaxyBlock:FireServer();
+game:GetService("ReplicatedStorage").SpawnRainbowBlock:FireServer();
+game:GetService("ReplicatedStorage").SpawnDiamondBlock:FireServer();
+game:GetService("ReplicatedStorage").SpawnSuperBlock:FireServer();
+game:GetService("ReplicatedStorage").SpawnLuckyBlock:FireServer();
+end;
+end;
+  	end    
+})
+
+Tab:AddButton({
+	Name = "KAT",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://paste.ee/r/qgfTX/0", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Funky Friday",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/RandomScript/main/FunkyFridayMobile"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "CocoSploit",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/RandomScript/main/FunkyFridayMobile"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Type Soul",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet(('https://pastefy.app/YyPjUC1F/raw'),true))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Universal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Universal Stuff"
+})
+
+Tab:AddButton({
+	Name = "Infinite Jump",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://pastebin.com/raw/U4aCM3t9"))()
+  	end    
+})
+
+Tab:AddSlider({
+	Name = "WalkSpeed",
+	Min = 16,
+	Max = 1000,
+	Default = 5,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "WalkSpeed",
+	Callback = function(Value)
+		print(Value)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Value)
+	end    
+})
+
+Tab:AddSlider({
+	Name = "JumpPower",
+	Min = 50,
+	Max = 500,
+	Default = 5,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "JumpPower",
+	Callback = function(Value)
+		print(Value)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Value)
+	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Misc",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Misc"
+})
+
+Tab:AddButton({
+	Name = "Copy Discord Invite",
+	Callback = function()
+      		print("button pressed")
+            setclipboard("discord.gg/cV3WC2w4Sd")
+  	end    
+})
+
+Tab:AddLabel("Join Discord If any bugs or if you wanna add a script")
+
+local Tab = Window:MakeTab({
+	Name = "Updates",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Updates"
+})
+
+Tab:AddLabel("V1 Release")
