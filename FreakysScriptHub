@@ -268,14 +268,6 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "TPS Street Soccer",
-	Callback = function()
-      		print("button pressed")
-            loadstring(game:HttpGet('https://raw.githubusercontent.com/itsnoctural/DestinyHub/main/loader.lua',true))()
-  	end    
-})
-
-Tab:AddButton({
 	Name = "Faded",
 	Callback = function()
       		print("button pressed")
@@ -288,14 +280,6 @@ Tab:AddButton({
 	Callback = function()
       		print("button pressed")
             loadstring(game:HttpGet(('https://raw.githubusercontent.com/RTrade/Voidz/main/Games.lua'),true))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Your Bizzare Adventure",
-	Callback = function()
-      		print("button pressed")
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/ALLHACKLOADER/main/NukeHub"))()
   	end    
 })
 
@@ -452,6 +436,8 @@ local Tab = Window:MakeTab({
 local Section = Tab:AddSection({
 	Name = "Updates"
 })
+
+Tab:AddLabel("V1.2.2 Removed YBA and TPS since patched")
 
 Tab:AddLabel("V1.2.1 Fixed CocoSploit/Aurora")
 
