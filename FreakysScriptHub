@@ -300,7 +300,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Fling",
+	Name = "The Strongest BattleGrounds 2.0",
 	Callback = function()
       		print("button pressed")
             loadstring(game:HttpGet("https://raw.githubusercontent.com/NBLMSCRIPTS/NBLMSCRIPTHUB/main/SKIBIDI"))()
@@ -366,6 +366,14 @@ Tab:AddButton({
 	Callback = function()
       		print("button pressed")
             loadstring(game:HttpGet('https://raw.githubusercontent.com/Anonymous12131/MenaceV2.1.-Best-bypasser/main/obf_i7iAAH834YFQno0FLyuLPcNR5ouJrmvEFdtmXtF1C6u935ghB9DAFK5L3zgsPs6X.lua.txt'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Touch Fling",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wpM7bBcOPspmX7lQ3m75SrYNWqxZ858ai3tJdEAId6jSI05IOUB224FQ0VSAswH.lua.txt'),true))()
   	end    
 })
 
