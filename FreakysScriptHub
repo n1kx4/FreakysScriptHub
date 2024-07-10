@@ -140,6 +140,22 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Word Bomb Legit",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://pastebin.com/raw/fnys9yPM",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Word Bomb Blatant",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet("https://pastebin.com/raw/XVw6eVTi",true))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "BrookHaven",
 	Callback = function()
       		print("button pressed")
