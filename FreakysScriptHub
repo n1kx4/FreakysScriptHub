@@ -502,7 +502,7 @@ local Section = Tab:AddSection({
 	Name = "Updates"
 })
 
-Tab:AddLabel("V1.3 Added Jailbreak Sniper Doors Anime ball Death ball Lumber Tycoon 2 and Dingus")
+Tab:AddLabel("V1.3 Added Many Scripts")
 
 Tab:AddLabel("V1.2.2 Removed YBA and TPS since patched")
 
