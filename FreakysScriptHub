@@ -446,5 +446,4 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddLabel("V1 Release")
-
 Tab:AddLabel("V1.1 Added Bypass 2.0")
