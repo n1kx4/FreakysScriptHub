@@ -445,6 +445,6 @@ local Section = Tab:AddSection({
 	Name = "Updates"
 })
 
-Tab:AddLabel("V1 Release")
+Tab:AddLabel("V1.1 Added Bypass 2.0)
 
-Tab:AddLabel("V1.1 Added Bypass 2.0")
+Tab:AddLabel("V1 Release")
