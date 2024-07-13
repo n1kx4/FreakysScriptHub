@@ -164,10 +164,10 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "BrookHaven",
+	Name = "BrookHaven(use troll version)",
 	Callback = function()
       		print("button pressed")
-            loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
   	end    
 })
 
