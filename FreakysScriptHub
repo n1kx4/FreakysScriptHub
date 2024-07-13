@@ -556,6 +556,8 @@ local Section = Tab:AddSection({
 	Name = "Updates"
 })
 
+Tab:AddLabel("V1.5.2 Updated Counter Blox")
+
 Tab:AddLabel("V1.5.1 Fixed BrookHaven")
 
 Tab:AddLabel("V1.5 Added Adopt Me")
