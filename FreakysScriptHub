@@ -135,7 +135,7 @@ Tab:AddButton({
 	Name = "Counter Blox",
 	Callback = function()
       		print("button pressed")
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Mick-gordon/Hyper-Escape/main/DeleteMobV2.lua", true))()
+            loadstring(game:HttpGet("https://scriptblox.com/raw/Counter-Blox-Solaris-14633"))()
   	end    
 })
 
