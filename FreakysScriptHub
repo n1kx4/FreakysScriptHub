@@ -116,6 +116,14 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Adopt Me",
+	Callback = function()
+      		print("button pressed")
+            loadstring(game:HttpGet(('https://raw.githubusercontent.com/ReQiuYTPL/hub/main/ReQiuYTPLHub.lua'),true))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Universal Aimbot",
 	Callback = function()
       		print("button pressed")
@@ -547,6 +555,8 @@ local Tab = Window:MakeTab({
 local Section = Tab:AddSection({
 	Name = "Updates"
 })
+
+Tab:AddLabel("V1.5 Added Adopt Me")
 
 Tab:AddLabel("V1.4.1 Added UNC and Level tests")
 
